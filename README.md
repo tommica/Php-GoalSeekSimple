@@ -5,6 +5,10 @@ https://github.com/adam-hanna/goal-seek
 
 Usage:
 
+```
+composer require tommica/php-goalseeksimple
+```
+
 ```php
 <?php
 
