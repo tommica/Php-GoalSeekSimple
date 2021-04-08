@@ -10,8 +10,12 @@ Usage:
 
 use Tommica\GoalSeekSimple;
 
+function calculate($x, $y, $z) {
+    return $x * $y * $z;
+}
+
 $result = GoalSeekSimple::Solve(
-    array($this, 'calculate'),
+    'calculate',
     array(1, 9, 19),
     0,
     200,
@@ -20,5 +24,5 @@ $result = GoalSeekSimple::Solve(
     0
 );
 
-$this->assertEquals(4, $result);
+echo $result; // 4
 ```
