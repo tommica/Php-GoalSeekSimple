@@ -23,7 +23,7 @@ class GoalSeekSimple
      * @param float|int $maxStep
      * @param float|int $goal
      * @param int $independentVariableIdx
-     * @return void
+     * @return int|float
      * @throws \Exception
      */
     public static function Solve(
